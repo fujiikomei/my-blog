@@ -1,11 +1,72 @@
 body {
-    font-family: sans-serif;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.6;
+    margin: 40px;
     background-color: #f9f9f9;
+    color: #333;
   }
+  
+  /* 見出しのスタイル */
+  h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 15px;
+  }
+  
+  /* 段落のスタイル */
+  p {
+    margin: 10px 0;
+  }
+  
+  /* 改行された段落への調整 */
+  p br {
+    margin-bottom: 10px;
+  }
+  
+  /* 画像のスタイル */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 箇条書きリスト */
+  ul {
+    padding-left: 20px;
+    margin: 20px 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    list-style-type: circle;
+  }
+  
+  /* リンクのスタイル */
   a {
-    color: blue;
+    display: inline-block;
+    margin-top: 30px;
     text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #2980b9;
   }
