@@ -70,3 +70,16 @@ body {
     text-decoration: underline;
     color: #2980b9;
   }
+
+  /* いちご */
+p.strawberry {
+    cursor: url('いちごの画像を指定'), auto;
+}
+/* にんじん */
+p.carrot {
+    cursor: url('にんじんの画像を指定'), auto;
+}
+/* ホットドッグ */
+p.hotdog {
+    cursor: url('ホットドッグの画像を指定'), auto;
+}
