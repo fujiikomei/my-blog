@@ -83,3 +83,26 @@ p.carrot {
 p.hotdog {
     cursor: url('ホットドッグの画像を指定'), auto;
 }
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/* レイアウト */
+p {
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px 0;
+    border: 1px solid #222;
+    text-align: center;
+}
+/* いちご */
+p.strawberry {
+    cursor: url('https://drive.google.com/uc?export=view&id=1koz_1lIepRld_lWXILxAQCH8RpB-2jNh'), auto;
+}
+/* にんじん */
+p.carrot {
+    cursor: url('https://drive.google.com/uc?export=view&id=1KeKQ720DeyegC4RmuXq4Hnhxe0GYGFJ_'), auto;
+}
+/* ホットドッグ */
+p.hotdog {
+    cursor: url('https://drive.google.com/uc?export=view&id=1d3Mlqj1pIn5IBstIUYZyuxWRsuDb4Btj'), auto;
+}
